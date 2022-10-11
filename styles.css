@@ -1,5 +1,8 @@
-firstpart {
+.firstpart {
   display: flex;
+  width: 400px;
+  height: 400px;
+  margin: auto;
   background-color: #1f2937;
   font-size: 48px extra-bold #f9faf8;
 }
