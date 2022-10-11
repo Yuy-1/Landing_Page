@@ -1,24 +1,27 @@
-.firstpart {
-  display: flex;
-  width: 400px;
-  height: 400px;
-  margin: auto;
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  margin: 0;
+  padding: 0;
+  boarder: 0;
   background-color: #1f2937;
   font-size: 48px extra-bold #f9faf8;
 }
 
-secondpart {
+.secondpart {
   display: flex;
 }
 
-thirdpart {
+.thirdpart {
   display: flex;
 }
 
-fourthpart {
+.fourthpart {
   display: flex;
 }
 
-fithpart {
+.fithpart {
   display: flex;   
 }
