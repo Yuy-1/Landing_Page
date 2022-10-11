@@ -2,12 +2,16 @@
   box-sizing: border-box;
 }
 
-.header {
+body {
   margin: 0;
+  border: 0;
   padding: 0;
-  boarder: 0;
+}
+
+header {
   background-color: #1f2937;
   font-size: 48px extra-bold #f9faf8;
+  height: 300px;
 }
 
 .secondpart {
