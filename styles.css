@@ -8,6 +8,10 @@ body {
   padding: 0;
 }
 
+h4 {
+  margin-top: 0;
+}
+
 header {
   background-color: #1f2937;
   font-size: 48px extra-bold #f9faf8;
