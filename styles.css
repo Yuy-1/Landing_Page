@@ -12,24 +12,27 @@ h4 {
   margin-top: 0;
 }
 
-.top {
+.one {
   background-color: #1f2937;
   font-size: 48px extra-bold #f9faf8;
   height: 300px;
 }
 
-.secondpart {
+.two {
+  display: flex;
+  height:250px;
+}
+
+.three {
+  display: flex;
+  height: 200px;
+  background-color: rgb(218, 214, 214);
+}
+
+.four {
   display: flex;
 }
 
-.thirdpart {
-  display: flex;
-}
-
-.fourthpart {
-  display: flex;
-}
-
-.fithpart {
+.fiive {
   display: flex;   
 }
