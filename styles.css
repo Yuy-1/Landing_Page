@@ -26,13 +26,15 @@ h4 {
 .three {
   display: flex;
   height: 200px;
-  background-color: rgb(218, 214, 214);
+  background-color: #E5E7Eb;;
 }
 
 .four {
   display: flex;
+  height: 100px;
 }
 
 .five {
   display: flex;   
+  background-color: #1f2937
 }
