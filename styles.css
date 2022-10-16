@@ -24,7 +24,6 @@ body {
 
 .one {
   background-color: #1f2937;
-  font-size: 48px extra-bold #f9faf8;
   height: 300px;
 }
 
@@ -36,8 +35,18 @@ body {
 
 .intro {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: auto;
+  font-size: 40px;
+  color:#F9FAF8;
+  font-family: 'roboto', arial;
+}
+
+.infodump {
+  font-family: 'roboto', arial;
+}
+
+.menu {
+
 }
 
 .two {
@@ -55,6 +64,8 @@ body {
   display: flex;
   height: 100px;
 }
+
+.quote
 
 .five {
   display: flex;   
