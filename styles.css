@@ -13,14 +13,11 @@ body {
   flex-direction: column;
 }
 
-h4 {
-  margin-top: 0;
-}
 
 .navigation {
   display: inline;
   margin-right: auto;
-  padding-left: 600px;
+  padding-left: 700px;
   font-size: 22px;
   font-family: 'roboto', arial;
 }
