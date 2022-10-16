@@ -13,7 +13,6 @@ body {
   flex-direction: column;
 }
 
-
 .navigation {
   display: inline;
   margin-right: auto;
@@ -36,10 +35,11 @@ body {
 .herospace {
   display: flex;
   align-items: center;
+  margin-left: 60px;
 }
 
 .intro {
-  display: flex;;
+  display: flex;
   font-size: 25px;
   color:#F9FAF8;
   font-family: 'roboto', arial;
@@ -51,6 +51,7 @@ body {
 }
 
 .menu {
+  display: flex;
   font-size: 25px;
   color: #1f2937;
   font-family: 'roboto', arial;  
@@ -61,10 +62,18 @@ body {
   height:250px;
 }
 
+.gallery {
+  display: flex;
+  padding: 100px;
+  align-items: center;
+  gap: 20px;
+}
+
 .three {
   display: flex;
   height: 200px;
-  background-color: #E5E7Eb;;
+  width: auto;
+  background-color: #E5E7Eb;
 }
 
 .four {
@@ -73,11 +82,14 @@ body {
 }
 
 .quote {
+  display: flex;
   color: #1f2937;
   font-family: 'roboto', arial;
 }
 
 .five {
+  display: flex;
+  height: 50px;
   display: flex;   
   background-color: #1f2937
 }
