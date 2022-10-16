@@ -8,14 +8,30 @@ body {
   padding: 0;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+
+}
+
 h4 {
   margin-top: 0;
+}
+
+.navigation {
+  display: inline;
+  margin-right: auto;
+  padding-left: 200px;
 }
 
 .one {
   background-color: #1f2937;
   font-size: 48px extra-bold #f9faf8;
   height: 300px;
+}
+
+.intro {
+
 }
 
 .two {
