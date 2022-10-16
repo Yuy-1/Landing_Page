@@ -30,6 +30,12 @@ h4 {
   height: 300px;
 }
 
+.header {
+  display: flex;
+  padding: 20px 0px 0px 20px;
+  align-items: center;
+}
+
 .intro {
 
 }
