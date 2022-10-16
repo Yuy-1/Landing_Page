@@ -33,20 +33,27 @@ body {
   align-items: center;
 }
 
-.intro {
+.herospace {
   display: flex;
-  align-items: auto;
-  font-size: 40px;
+  align-items: center;
+}
+
+.intro {
+  display: flex;;
+  font-size: 25px;
   color:#F9FAF8;
   font-family: 'roboto', arial;
 }
 
 .infodump {
+  color: #F9FAF8;
   font-family: 'roboto', arial;
 }
 
 .menu {
-
+  font-size: 25px;
+  color: #1f2937;
+  font-family: 'roboto', arial;  
 }
 
 .two {
@@ -65,7 +72,10 @@ body {
   height: 100px;
 }
 
-.quote
+.quote {
+  color: #1f2937;
+  font-family: 'roboto', arial;
+}
 
 .five {
   display: flex;   
