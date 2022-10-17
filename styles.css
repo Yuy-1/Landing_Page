@@ -74,21 +74,22 @@ body {
 
 
 .three {
-  display: flex;
+  display: block;
   height: 200px;
   width: auto;
   background-color: #E5E7Eb;
 }
 
+.quote {
+  color: #1f2937;
+}
+
 .four {
-  display: flex;
+  display: block;
   height: 100px;
 }
 
-.quote {
-  display: flex;
-  color: #1f2937;
-}
+
 
 .five {
   display: flex;
