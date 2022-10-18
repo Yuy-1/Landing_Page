@@ -24,7 +24,7 @@ body {
 
 .one {
   background-color: #1f2937;
-  height: 300px;
+  height: 400px;
 }
 
 .header {
@@ -34,13 +34,17 @@ body {
 }
 
 .herospace {
-  display: flex;
+  
+}
+
+.herowords {
+  display: block;
   align-items: center;
   margin-left: 60px;
 }
 
 .intro {
-  display: flex;
+  display: block;
   font-size: 25px;
   color:#F9FAF8;
 }
