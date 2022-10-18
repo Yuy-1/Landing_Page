@@ -34,13 +34,17 @@ body {
 }
 
 .herospace {
-  
+  display:flex;
 }
 
 .herowords {
   display: block;
   align-items: center;
   margin-left: 60px;
+}
+
+.heroimg {
+  padding-left: 400px;
 }
 
 .intro {
@@ -68,10 +72,23 @@ body {
   color: #1f2937;
 }
 
-.gallery {
+/*.gallery {
   display: block;
   align-items: center;
-  gap: 20px;
+}
+*/
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.gallery img {
+  height: 120px; 
+  width: 240px;
 }
 
 /* quote part */
