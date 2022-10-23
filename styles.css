@@ -2,6 +2,13 @@
   box-sizing: border-box;
 }
 
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
 body {
   display:block;
   margin: 0;
@@ -15,6 +22,10 @@ body {
   flex-direction: column;
 }
 
+.logo {
+  padding-bottom: 0px;
+}
+
 .navigation {
   display: inline;
   margin-right: auto;
@@ -24,7 +35,7 @@ body {
 
 .one {
   background-color: #1f2937;
-  height: 400px;
+  height: 425px;
 }
 
 .header {
@@ -35,26 +46,41 @@ body {
 
 .herospace {
   display:flex;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  align-content: center;
 }
 
 .herowords {
-  display: block;
-  align-items: center;
+  align-content: center;
   margin-left: 60px;
-}
-
-.heroimg {
-  padding-left: 400px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 .intro {
-  display: block;
-  font-size: 25px;
+  font-size: 48px;
   color:#F9FAF8;
+  text-align: left;
+  font-weight: 1000px;
+  padding: 0px;
+  margin: 0px;
 }
 
 .infodump {
+  font-size: 18px;
   color: #F9FAF8;
+  text-align: left;
+  padding: 0px;
+  margin: 0px;
+}
+
+.heroimg {
+  padding-left: 200px;
 }
 
 /*Content part */
@@ -71,6 +97,8 @@ body {
   font-size: 25px;
   color: #1f2937;
   font-family: 'roboto', arial;
+  padding-top: 50px;
+  padding-bottom: 30px;
 }
 
 .gallery {
@@ -81,6 +109,7 @@ body {
   gap: 25px;
   color:#1f2937;
   font-family: 'roboto', arial;
+  font-size: 20px;
 }
 
 .gallery img {
@@ -98,17 +127,29 @@ body {
   background-color: #E5E7Eb;
 }
 
+.quoteblock {
+  display:block;
+}
+
 .quote {
+  align-content: center;
   color: #1f2937;
   font-size: 30px;
+  margin-top: 60px;
+  text-align: left;
+}
+
+.neil {
+  color: #1f2937;
+  font-size: 16px;
+  text-align: right;
+  font-style: bolder;
 }
 
 .four {
   display: block;
   height: 100px;
 }
-
-
 
 .five {
   display: flex;
