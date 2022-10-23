@@ -70,13 +70,8 @@ body {
   justify-content: center;
   font-size: 25px;
   color: #1f2937;
+  font-family: 'roboto', arial;
 }
-
-/*.gallery {
-  display: block;
-  align-items: center;
-}
-*/
 
 .gallery {
   display: flex;
@@ -84,10 +79,12 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   gap: 25px;
+  color:#1f2937;
+  font-family: 'roboto', arial;
 }
 
 .gallery img {
-  height: 120px; 
+  height: 140px; 
   width: 240px;
 }
 
