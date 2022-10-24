@@ -110,6 +110,7 @@ body {
   color:#1f2937;
   font-family: 'roboto', arial;
   font-size: 20px;
+  border-radius: 25px;
 }
 
 .gallery img {
@@ -121,22 +122,23 @@ body {
 
 
 .three {
-  display: block;
+  display: flex;
   height: 200px;
   width: auto;
   background-color: #E5E7Eb;
+  justify-content: center;
 }
-
+/*
 .quoteblock {
   display:block;
 }
-
+*/
 .quote {
-  align-content: center;
   color: #1f2937;
   font-size: 30px;
   margin-top: 60px;
   text-align: left;
+  padding-bottom: 8px;
 }
 
 .neil {
@@ -145,6 +147,8 @@ body {
   text-align: right;
   font-style: bolder;
 }
+
+/* call to action */
 
 .four {
   display: block;
