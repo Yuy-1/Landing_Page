@@ -92,19 +92,15 @@ body {
 
 /* Content */
 
-.two {
-  display: block;
+.content {
   align-items: center;
-  height: 350px;
-  background-color: #2e3e55;
+  background-color: #1f2937;
 }
 
-.menu {
-  display: block;
+.content-intro {
   justify-content: center;
   font-size: 25px;
   color: #F9FAF8;
-  font-family: 'roboto', arial;
   padding-top: 50px;
   padding-bottom: 30px;
 }
@@ -116,15 +112,16 @@ body {
   justify-content: center;
   gap: 25px;
   color:#F9FAF8;
-  font-family: 'roboto', arial;
   font-size: 20px;
+  margin-bottom: 30px;
 }
 
 .gallery img {
   height: 140px; 
   width: 240px;
+  object-fit: cover;
   border-radius: 10px;
-  border: solid 4px #1f2937;
+  border: solid 4px #E5E7Eb;
   padding: -5px;
   margin-bottom: 20px;
 }
@@ -173,6 +170,7 @@ body {
 
 .signup-button {
   flex: 1;
+  margin-left: 10px;
 }
 
 /* copyright */
