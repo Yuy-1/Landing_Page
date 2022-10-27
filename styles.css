@@ -125,16 +125,18 @@ body {
 
 .three {
   display: flex;
-  height: 200px;
   width: auto;
   background-color: #E5E7Eb;
   justify-content: center;
 }
 
+.quoteblock {
+  margin: 100px 0px;
+}
+
 .quote {
   color: #1f2937;
   font-size: 30px;
-  margin-top: 60px;
   text-align: left;
   padding-bottom: 8px;
 }
